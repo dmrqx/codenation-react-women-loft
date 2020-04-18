@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html class="no-js" lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>IMDB - CodeNation Filmes</title>
+    <meta name="description" content="" />
+    <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <header class="brand--header">
+      <img src="./img/logo-imdb.jpg" class="brand--logo" alt="Logotipo IMDB" />
+      <nav class="header--nav">
+        <ul>
+          <li><a href="#" class="nav--link nav--link__light">Lançamentos</a></li>
+          <li><a href="#" class="nav--link nav--link__light">Crítica</a></li>
+          <li><a href="#" class="nav--link nav--link__light">Em cartaz</a></li>
+        </ul>
+      </nav>
+      <aside class="user-profile-avatar">
+        <img src="./img//walter-white.jpg" class="user-profile--photo" alt="" />
+        <span class="user-profile--name">Walter White</span>
+      </aside>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-movie">
+          <h2 class="hero-movie--title">
+            Mad Max: Estrada da fúria
+          </h2>
+          <nav class="hero-movie--genres">
+            <ul>
+              <li>
+                <a href="#" class="nav--link">Aventura</a>
+              </li>
+              <li>
+                <a href="#" class="nav--link">SCI-FI</a>
+              </li>
+              <li>
+                <a href="#" class="nav--link">Terror</a>
+              </li>
+            </ul>
+          </nav>
+          <a class="hero-movie--trailer-cta link-btn link-btn__primary">Assistir trailer <i class="fa fa-play-circle-o"></i></a>
+          <p class="hero-movie--status">
+            Nos Cinemas
+          </p>
+          <p class="hero-movie--release-date">15 de Outubro de 2015 (Brasil)</p>
+        </div>
+      </section>
+      <section id="movies">
+        <nav class="movies--nav">
+          <ul>
+            <li>
+              <a href="#" class="nav--link">Nos cinemas</a>
+            </li>
+            <li>
+              <a href="#" class="nav--link">Em breve</a>
+            </li>
+            <li>
+              <a href="#" class="nav--link">Bilheteria</a>
+            </li>
+            <li>
+              <a href="#" class="nav--link">Séries</a>
+            </li>
+            <li>
+              <a href="#" class="nav--link">Trailers</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="movies--catalog">
+          <li>
+            <article class="movie-card card">
+              <figure class="card-image card-image__top">
+                <img
+                  src="./img/poster-moonlight.jpg"
+                  alt="Poster do filme Moonlight"
+                />
+                <div class="card-image--content">
+                  <figcaption class="movie-title card-image--caption">
+                    Moonlight
+                  </figcaption>
+                  <a
+                    href="#"
+                    class="movie-card--trailer-button"
+                    aria-label="Assista o trailer de Moonlight"
+                    ><i class="fa fa-play" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </figure>
+              <div class="card-content card-content__bottom">
+                <h3 class="movie-title">Moonlight</h3>
+                <ul class="movie-card--genres">
+                  <li><a href="#" class="movie-card--genre">Drama</a></li>
+                </ul>
+                <div class="movie-card--actions">
+                  <a
+                    href="#"
+                    class="favorite"
+                    aria-label="Amou o filme? Adicione-o aos seus favoritos."
+                    ><i class="fa fa-heart" aria-hidden="true"></i
+                  ></a>
+                  <p class="rating">
+                    7.0
+                  </p>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="movie-card card">
+              <figure class="card-image card-image__top">
+                <img
+                  src="./img/poster-bladerunner.jpg"
+                  alt="Poster do filme Blade Runner"
+                />
+                <div class="card-image--content">
+                  <figcaption class="movie-title card-image--caption">
+                    Blade Runner
+                  </figcaption>
+                  <a
+                    href="#"
+                    class="movie-card--trailer-button"
+                    aria-label="Assista o trailer de Blade Runner"
+                    ><i class="fa fa-play" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </figure>
+              <div class="card-content card-content__bottom">
+                <h3 class="movie-title">Blade Runner</h3>
+                <ul class="movie-card--genres">
+                  <li><a href="#" class="movie-card--genre">Aventura</a>,</li>
+                  <li><a href="#" class="movie-card--genre">SCI-FI</a></li>
+                </ul>
+                <div class="movie-card--actions">
+                  <a
+                    href="#"
+                    class="favorite"
+                    aria-label="Amou o filme? Adicione-o aos seus favoritos."
+                    ><i class="fa fa-heart" aria-hidden="true"></i
+                  ></a>
+                  <p class="rating">
+                    7.0
+                  </p>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="movie-card card">
+              <figure class="card-image card-image__top">
+                <img
+                  src="./img/poster-mad-max.jpg"
+                  alt="Poster do filme Mad Max"
+                />
+                <div class="card-image--content">
+                  <figcaption class="movie-title card-image--caption">
+                    Mad Max
+                  </figcaption>
+                  <a
+                    href="#"
+                    class="movie-card--trailer-button"
+                    aria-label="Assista o trailer de Mad Max"
+                    ><i class="fa fa-play" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </figure>
+              <div class="card-content card-content__bottom">
+                <h3 class="movie-title">Mad Max</h3>
+                <ul class="movie-card--genres">
+                  <li><a href="#" class="movie-card--genre">Aventura</a>,</li>
+                  <li><a href="#" class="movie-card--genre">SCI-FI</a>,</li>
+                  <li><a href="#" class="movie-card--genre">Terror</a></li>
+                </ul>
+                <div class="movie-card--actions">
+                  <a
+                    href="#"
+                    class="favorite"
+                    aria-label="Amou o filme? Adicione-o aos seus favoritos."
+                    ><i class="fa fa-heart" aria-hidden="true"></i
+                  ></a>
+                  <p class="rating">
+                    7.0
+                  </p>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="movie-card card">
+              <figure class="card-image card-image__top">
+                <img src="./img/poster-alita.jpg" alt="Poster do filme Alita" />
+                <div class="card-image--content">
+                  <figcaption class="movie-title card-image--caption">
+                    Alita
+                  </figcaption>
+                  <a
+                    href="#"
+                    class="movie-card--trailer-button"
+                    aria-label="Assista o trailer de Alita"
+                    ><i class="fa fa-play" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </figure>
+              <div class="card-content card-content__bottom">
+                <h3 class="movie-title">Alita</h3>
+                <ul class="movie-card--genres">
+                  <li><a href="#" class="movie-card--genre">Aventura</a>,</li>
+                  <li><a href="#" class="movie-card--genre">SCI-FI</a></li>
+                </ul>
+                <div class="movie-card--actions">
+                  <a
+                    href="#"
+                    class="favorite"
+                    aria-label="Amou o filme? Adicione-o aos seus favoritos."
+                    ><i class="fa fa-heart" aria-hidden="true"></i
+                  ></a>
+                  <p class="rating">
+                    7.0
+                  </p>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="movie-card card">
+              <figure class="card-image card-image__top">
+                <img
+                  src="./img/poster-batman-superman.jpg"
+                  alt="Poster do filme Batman vs Superman"
+                />
+                <div class="card-image--content">
+                  <figcaption class="movie-title card-image--caption">
+                    Batman vs Superman
+                  </figcaption>
+                  <a
+                    href="#"
+                    class="movie-card--trailer-button"
+                    aria-label="Assista o trailer de Batman vs Superman"
+                    ><i class="fa fa-play" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </figure>
+              <div class="card-content card-content__bottom">
+                <h3 class="movie-title">Batman vs Superman</h3>
+                <ul class="movie-card--genres">
+                  <li><a href="#" class="movie-card--genre">Ação</a>,</li>
+                  <li><a href="#" class="movie-card--genre">Drama</a></li>
+                </ul>
+                <div class="movie-card--actions">
+                  <a
+                    href="#"
+                    class="favorite"
+                    aria-label="Amou o filme? Adicione-o aos seus favoritos."
+                    ><i class="fa fa-heart" aria-hidden="true"></i
+                  ></a>
+                  <p class="rating">
+                    7.0
+                  </p>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="movie-card card">
+              <figure class="card-image card-image__top">
+                <img
+                  src="./img/poster-jurassic-world.jpg"
+                  alt="Poster do filme Jurassic World"
+                />
+                <div class="card-image--content">
+                  <figcaption class="movie-title card-image--caption">
+                    Jurassic World
+                  </figcaption>
+                  <a
+                    href="#"
+                    class="movie-card--trailer-button"
+                    aria-label="Assista o trailer de Jurassic World"
+                    ><i class="fa fa-play" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </figure>
+              <div class="card-content card-content__bottom">
+                <h3 class="movie-title">Jurassic World</h3>
+                <ul class="movie-card--genres">
+                  <li><a href="#" class="movie-card--genre">Aventura</a>,</li>
+                  <li><a href="#" class="movie-card--genre">Terror</a></li>
+                </ul>
+                <div class="movie-card--actions">
+                  <a
+                    href="#"
+                    class="favorite"
+                    aria-label="Amou o filme? Adicione-o aos seus favoritos."
+                    ><i class="fa fa-heart" aria-hidden="true"></i
+                  ></a>
+                  <p class="rating">
+                    7.0
+                  </p>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="movie-card card">
+              <figure class="card-image card-image__top">
+                <img
+                  src="./img/poster-guerra-civil.jpg"
+                  alt="Poster do filme Guerra Civil"
+                />
+                <div class="card-image--content">
+                  <figcaption class="movie-title card-image--caption">
+                    Guerra Civil
+                  </figcaption>
+                  <a
+                    href="#"
+                    class="movie-card--trailer-button"
+                    aria-label="Assista o trailer de Guerra Civil"
+                    ><i class="fa fa-play" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </figure>
+              <div class="card-content card-content__bottom">
+                <h3 class="movie-title">Guerra Civil</h3>
+                <ul class="movie-card--genres">
+                  <li><a href="#" class="movie-card--genre">Aventura</a>,</li>
+                  <li><a href="#" class="movie-card--genre">Ação</a></li>
+                </ul>
+                <div class="movie-card--actions">
+                  <a
+                    href="#"
+                    class="favorite"
+                    aria-label="Amou o filme? Adicione-o aos seus favoritos."
+                    ><i class="fa fa-heart" aria-hidden="true"></i
+                  ></a>
+                  <p class="rating">
+                    7.0
+                  </p>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="movie-card card">
+              <figure class="card-image card-image__top">
+                <img
+                  src="./img/poster-capita-marvel.jpg"
+                  alt="Poster do filme Capitã Marvel"
+                />
+                <div class="card-image--content">
+                  <figcaption class="movie-title card-image--caption">
+                    Capitã Marvel
+                  </figcaption>
+                  <a
+                    href="#"
+                    class="movie-card--trailer-button"
+                    aria-label="Assista o trailer de Capitã Marvel"
+                    ><i class="fa fa-play" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </figure>
+              <div class="card-content card-content__bottom">
+                <h3 class="movie-title">Capitã Marvel</h3>
+                <ul class="movie-card--genres">
+                  <li><a href="#" class="movie-card--genre">SCI-FI</a></li>
+                </ul>
+                <div class="movie-card--actions">
+                  <a
+                    href="#"
+                    class="favorite"
+                    aria-label="Amou o filme? Adicione-o aos seus favoritos."
+                    ><i class="fa fa-heart" aria-hidden="true"></i
+                  ></a>
+                  <p class="rating">
+                    9.0
+                  </p>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="movie-card card">
+              <figure class="card-image card-image__top">
+                <img
+                  src="./img/poster-coringa.jpg"
+                  alt="Poster do filme Coringa"
+                />
+                <div class="card-image--content">
+                  <figcaption class="movie-title card-image--caption">
+                    Coringa
+                  </figcaption>
+                  <a
+                    href="#"
+                    class="movie-card--trailer-button"
+                    aria-label="Assista o trailer de Coringa"
+                    ><i class="fa fa-play" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </figure>
+              <div class="card-content card-content__bottom">
+                <h3 class="movie-title">Coringa</h3>
+                <ul class="movie-card--genres">
+                  <li><a href="#" class="movie-card--genre">Suspese</a>,</li>
+                  <li><a href="#" class="movie-card--genre">Drama</a></li>
+                </ul>
+                <div class="movie-card--actions">
+                  <a
+                    href="#"
+                    class="favorite"
+                    aria-label="Amou o filme? Adicione-o aos seus favoritos."
+                    ><i class="fa fa-heart" aria-hidden="true"></i
+                  ></a>
+                  <p class="rating">
+                    10
+                  </p>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="movie-card card">
+              <figure class="card-image card-image__top">
+                <img
+                  src="./img/poster-liga-justica.jpg"
+                  alt="Poster do filme Liga da Justiça"
+                />
+                <div class="card-image--content">
+                  <figcaption class="movie-title card-image--caption">
+                    Liga da Justiça
+                  </figcaption>
+                  <a
+                    href="#"
+                    class="movie-card--trailer-button"
+                    aria-label="Assista o trailer de Liga da Justiça"
+                    ><i class="fa fa-play" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </figure>
+              <div class="card-content card-content__bottom">
+                <h3 class="movie-title">Liga da Justiça</h3>
+                <ul class="movie-card--genres">
+                  <li><a href="#" class="movie-card--genre">Aventura</a>,</li>
+                  <li><a href="#" class="movie-card--genre">Ação</a></li>
+                </ul>
+                <div class="movie-card--actions">
+                  <a
+                    href="#"
+                    class="favorite"
+                    aria-label="Amou o filme? Adicione-o aos seus favoritos."
+                    ><i class="fa fa-heart" aria-hidden="true"></i
+                  ></a>
+                  <p class="rating">
+                    7.5
+                  </p>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="movie-card card">
+              <figure class="card-image card-image__top">
+                <img
+                  src="./img/poster-star-wars.jpg"
+                  alt="Poster do filme Star Wars VII"
+                />
+                <div class="card-image--content">
+                  <figcaption class="movie-title card-image--caption">
+                    Star Wars VII
+                  </figcaption>
+                  <a
+                    href="#"
+                    class="movie-card--trailer-button"
+                    aria-label="Assista o trailer de Star Wars VII"
+                    ><i class="fa fa-play" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </figure>
+              <div class="card-content card-content__bottom">
+                <h3 class="movie-title">Star Wars VII</h3>
+                <ul class="movie-card--genres">
+                  <li><a href="#" class="movie-card--genre">Aventura</a>,</li>
+                  <li><a href="#" class="movie-card--genre">SCI-FI</a></li>
+                </ul>
+                <div class="movie-card--actions">
+                  <a
+                    href="#"
+                    class="favorite"
+                    aria-label="Amou o filme? Adicione-o aos seus favoritos."
+                    ><i class="fa fa-heart" aria-hidden="true"></i
+                  ></a>
+                  <p class="rating">
+                    7.0
+                  </p>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="movie-card card">
+              <figure class="card-image card-image__top">
+                <img
+                  src="./img/poster-pantera-negra.jpg"
+                  alt="Poster do filme Pantera Negra"
+                />
+                <div class="card-image--content">
+                  <figcaption class="movie-title card-image--caption">
+                    Pantera Negra
+                  </figcaption>
+                  <a
+                    href="#"
+                    class="movie-card--trailer-button"
+                    aria-label="Assista o trailer de Pantera Negra"
+                    ><i class="fa fa-play" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </figure>
+              <div class="card-content card-content__bottom">
+                <h3 class="movie-title">Pantera Negra</h3>
+                <ul class="movie-card--genres">
+                  <li><a href="#" class="movie-card--genre">Aventura</a>,</li>
+                  <li><a href="#" class="movie-card--genre">SCI-FI</a></li>
+                </ul>
+                <div class="movie-card--actions">
+                  <a
+                    href="#"
+                    class="favorite"
+                    aria-label="Amou o filme? Adicione-o aos seus favoritos."
+                    ><i class="fa fa-heart" aria-hidden="true"></i
+                  ></a>
+                  <p class="rating">
+                    7.0
+                  </p>
+                </div>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="brand--footer">
+      <img src="./img/logo-imdb.jpg" class="brand--logo" alt="Logotipo IMDB" />
+      <nav class="brand--social-media">
+        <ul>
+          <li>
+            <a
+              href="#"
+              aria-label="Acompanhe as últimas notícias do cinema em nosso Twitter"
+              ><i class="fa fa-twitter" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#" aria-label="Curta nossa página no Facebook"
+              ><i class="fa fa-facebook-official" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="#"
+              aria-label="Conheça os bastidores do cinema em nosso Instagram"
+              ><i class="fa fa-instagram" aria-hidden="true"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>

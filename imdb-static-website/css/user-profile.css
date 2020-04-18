@@ -1,0 +1,17 @@
+.user-profile-avatar {
+    display: flex;
+    align-items: center;
+}
+
+.user-profile--photo {
+    width: 4.5rem;
+    height: 4.5rem;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.user-profile--name {
+    font-weight: var(--font-weight__bold);
+    color: var(--grayscale-100);
+    padding-left: 1.5rem;
+}

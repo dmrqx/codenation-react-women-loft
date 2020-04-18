@@ -1,0 +1,33 @@
+:root {
+  --scrollbar-width: calc(100vw - 100%);
+  --max-container-width: 96rem;
+
+  /* typography */
+  --default-font-stack: 'Montserrat', system, sans-serif;
+  --font-weight__regular: 400;
+  --font-weight__bold: 700;
+  --rem-size: 10px;
+  --base-font-size: 1.3rem;
+
+  /* colors */
+  --grayscale-100: #fff;
+  --grayscale-200: #f2f2f2;
+  --grayscale-400: #ccc;
+  --grayscale-500: #bababa;
+  --grayscale-900: #000;
+
+  --primary-color: #e4bb23;
+  --primary-color__dark: #bc9a1d;
+  --text-color: var(--grayscale-900);
+  --link-color: var(--primary-color);
+  --hover-color: var(--primary-color);
+
+  --favorites-color: #e74c3c;
+
+  --facebook-color: #3b5998;
+  --instagram-color: #e95950;
+  --twitter-color: #55acee;
+
+  /* transitions */
+  --default-transition: all 0.2s ease-in-out;
+}

@@ -1,0 +1,20 @@
+.fa {
+  transition: var(--default-transition);
+}
+
+.fa-facebook-official:hover {
+  color: var(--facebook-color);
+}
+
+.fa-heart:hover {
+  color: var(--favorites-color);
+}
+
+
+.fa-instagram:hover {
+  color: var(--instagram-color);
+}
+
+.fa-twitter:hover {
+  color: var(--twitter-color);
+}
